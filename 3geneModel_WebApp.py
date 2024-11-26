@@ -4,8 +4,8 @@ import streamlit as st
 import random
 
 #Set title of the page
-st.title("🧬 Stohcastic Simulation WebApp")
-st.subheader("A simulation model of 3-GENE-Oscillatory-Network using Gillespie's Algorithm")
+st.title("🧬 3-GENE-Oscillatory-Model: WebApp")
+st.subheader("Stohcastic simulation model of 3 genes in an oscillatory network with negative feedback cycle, using Gillespie's Algorithm")
 st.sidebar.title("Parameter Settings")
 st.sidebar.subheader("*tweak around with the parameters to observe the effect*")
 
